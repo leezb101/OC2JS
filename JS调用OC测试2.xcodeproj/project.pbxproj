@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F1CAE271D4A01D400A7D43D /* UIImage+CameraFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CADEA1D4A01D400A7D43D /* UIImage+CameraFilters.m */; };
+		6F1CAE281D4A01D400A7D43D /* TGCameraAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CADED1D4A01D400A7D43D /* TGCameraAuthorizationViewController.m */; };
+		6F1CAE291D4A01D400A7D43D /* TGCameraNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CADEF1D4A01D400A7D43D /* TGCameraNavigationController.m */; };
+		6F1CAE2A1D4A01D400A7D43D /* TGCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CADF11D4A01D400A7D43D /* TGCameraViewController.m */; };
+		6F1CAE2B1D4A01D400A7D43D /* TGPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CADF31D4A01D400A7D43D /* TGPhotoViewController.m */; };
+		6F1CAE2C1D4A01D400A7D43D /* TGAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CADF61D4A01D400A7D43D /* TGAlbum.m */; };
+		6F1CAE2D1D4A01D400A7D43D /* TGAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CADF81D4A01D400A7D43D /* TGAssetsLibrary.m */; };
+		6F1CAE2E1D4A01D400A7D43D /* TGCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CADFA1D4A01D400A7D43D /* TGCamera.m */; };
+		6F1CAE2F1D4A01D400A7D43D /* TGCameraColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CADFC1D4A01D400A7D43D /* TGCameraColor.m */; };
+		6F1CAE301D4A01D400A7D43D /* TGCameraFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CADFE1D4A01D400A7D43D /* TGCameraFlash.m */; };
+		6F1CAE311D4A01D400A7D43D /* TGCameraFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE001D4A01D400A7D43D /* TGCameraFocus.m */; };
+		6F1CAE321D4A01D400A7D43D /* TGCameraGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE021D4A01D400A7D43D /* TGCameraGrid.m */; };
+		6F1CAE331D4A01D400A7D43D /* TGCameraShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE041D4A01D400A7D43D /* TGCameraShot.m */; };
+		6F1CAE341D4A01D400A7D43D /* TGCameraToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE061D4A01D400A7D43D /* TGCameraToggle.m */; };
+		6F1CAE351D4A01D400A7D43D /* IBActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE081D4A01D400A7D43D /* IBActionSheet.m */; };
+		6F1CAE361D4A01D400A7D43D /* TGAssetImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE0B1D4A01D400A7D43D /* TGAssetImageFile.m */; };
+		6F1CAE371D4A01D400A7D43D /* TGCameraViewController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CAE0C1D4A01D400A7D43D /* TGCameraViewController.xcassets */; };
+		6F1CAE381D4A01D400A7D43D /* TGCameraFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE0F1D4A01D400A7D43D /* TGCameraFilterView.m */; };
+		6F1CAE391D4A01D400A7D43D /* TGCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE111D4A01D400A7D43D /* TGCameraFocusView.m */; };
+		6F1CAE3A1D4A01D400A7D43D /* TGCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE131D4A01D400A7D43D /* TGCameraGridView.m */; };
+		6F1CAE3B1D4A01D400A7D43D /* TGCameraSlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE151D4A01D400A7D43D /* TGCameraSlideDownView.m */; };
+		6F1CAE3C1D4A01D400A7D43D /* TGCameraSlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE171D4A01D400A7D43D /* TGCameraSlideUpView.m */; };
+		6F1CAE3D1D4A01D400A7D43D /* TGCameraSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CAE191D4A01D400A7D43D /* TGCameraSlideView.m */; };
+		6F1CAE3E1D4A01D400A7D43D /* TGCameraAuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CAE1B1D4A01D400A7D43D /* TGCameraAuthorizationViewController.xib */; };
+		6F1CAE3F1D4A01D400A7D43D /* TGCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CAE1D1D4A01D400A7D43D /* TGCameraViewController.xib */; };
+		6F1CAE401D4A01D400A7D43D /* TGPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CAE1F1D4A01D400A7D43D /* TGPhotoViewController.xib */; };
+		6F1CAE411D4A01D400A7D43D /* TGCameraAuthorizationViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CAE211D4A01D400A7D43D /* TGCameraAuthorizationViewController.strings */; };
+		6F1CAE421D4A01D400A7D43D /* TGCameraViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CAE231D4A01D400A7D43D /* TGCameraViewController.strings */; };
+		6F1CAE431D4A01D400A7D43D /* TGPhotoViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CAE251D4A01D400A7D43D /* TGPhotoViewController.strings */; };
+		6F3CD6301D4888F700D49F17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CD62F1D4888F700D49F17 /* main.m */; };
+		6F3CD6331D4888F700D49F17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CD6321D4888F700D49F17 /* AppDelegate.m */; };
+		6F3CD63B1D4888F700D49F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3CD63A1D4888F700D49F17 /* Assets.xcassets */; };
+		6F3CD6481D488A4100D49F17 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3CD6471D488A4100D49F17 /* JavaScriptCore.framework */; };
+		6F3CD64C1D488F6700D49F17 /* imgNative.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F3CD64B1D488F6700D49F17 /* imgNative.html */; };
+		6F48AB0C1D4F345400CEC584 /* LYQImgSenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F48AB0B1D4F345400CEC584 /* LYQImgSenderViewController.m */; };
+		6F82941D1D48B707002A6B95 /* ZYQAssetPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F82941A1D48B707002A6B95 /* ZYQAssetPicker.Bundle */; };
+		6F82941E1D48B707002A6B95 /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F82941C1D48B707002A6B95 /* ZYQAssetPickerController.m */; };
+		6F8294211D48BF98002A6B95 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8294201D48BF98002A6B95 /* Tools.m */; };
+		6FA1D27F1D5824BC00115333 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1D27D1D5824BC00115333 /* GTMBase64.m */; };
+		6FF17E201D4B44EE00ED38C0 /* photoTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E1F1D4B44EE00ED38C0 /* photoTest.html */; };
+		6FF17E391D4B451200ED38C0 /* approval.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E221D4B451200ED38C0 /* approval.png */; };
+		6FF17E3A1D4B451200ED38C0 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E231D4B451200ED38C0 /* back.png */; };
+		6FF17E3B1D4B451200ED38C0 /* close1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E241D4B451200ED38C0 /* close1.png */; };
+		6FF17E3C1D4B451200ED38C0 /* close2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E251D4B451200ED38C0 /* close2.png */; };
+		6FF17E3D1D4B451200ED38C0 /* complete.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E261D4B451200ED38C0 /* complete.png */; };
+		6FF17E3E1D4B451200ED38C0 /* flexclose.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E271D4B451200ED38C0 /* flexclose.png */; };
+		6FF17E3F1D4B451200ED38C0 /* foot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E281D4B451200ED38C0 /* foot.png */; };
+		6FF17E401D4B451200ED38C0 /* footBak.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E291D4B451200ED38C0 /* footBak.png */; };
+		6FF17E411D4B451200ED38C0 /* holidy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E2A1D4B451200ED38C0 /* holidy.png */; };
+		6FF17E421D4B451200ED38C0 /* imgBut11.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E2B1D4B451200ED38C0 /* imgBut11.png */; };
+		6FF17E431D4B451200ED38C0 /* imgBut12.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E2C1D4B451200ED38C0 /* imgBut12.png */; };
+		6FF17E441D4B451200ED38C0 /* imgBut21.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E2D1D4B451200ED38C0 /* imgBut21.png */; };
+		6FF17E451D4B451200ED38C0 /* imgBut22.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E2E1D4B451200ED38C0 /* imgBut22.png */; };
+		6FF17E461D4B451200ED38C0 /* indexbak.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E2F1D4B451200ED38C0 /* indexbak.png */; };
+		6FF17E471D4B451200ED38C0 /* insurance.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E301D4B451200ED38C0 /* insurance.png */; };
+		6FF17E481D4B451200ED38C0 /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E311D4B451200ED38C0 /* money.png */; };
+		6FF17E491D4B451200ED38C0 /* open1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E321D4B451200ED38C0 /* open1.png */; };
+		6FF17E4A1D4B451200ED38C0 /* open2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E331D4B451200ED38C0 /* open2.png */; };
+		6FF17E4B1D4B451200ED38C0 /* photoBak.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E341D4B451200ED38C0 /* photoBak.png */; };
+		6FF17E4C1D4B451200ED38C0 /* pressBak.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E351D4B451200ED38C0 /* pressBak.png */; };
+		6FF17E4D1D4B451200ED38C0 /* submit.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E361D4B451200ED38C0 /* submit.png */; };
+		6FF17E4E1D4B451200ED38C0 /* topresent.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E371D4B451200ED38C0 /* topresent.png */; };
+		6FF17E4F1D4B451200ED38C0 /* topresent2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF17E381D4B451200ED38C0 /* topresent2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F1CADE91D4A01D400A7D43D /* UIImage+CameraFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CameraFilters.h"; sourceTree = "<group>"; };
+		6F1CADEA1D4A01D400A7D43D /* UIImage+CameraFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CameraFilters.m"; sourceTree = "<group>"; };
+		6F1CADEC1D4A01D400A7D43D /* TGCameraAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraAuthorizationViewController.h; sourceTree = "<group>"; };
+		6F1CADED1D4A01D400A7D43D /* TGCameraAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraAuthorizationViewController.m; sourceTree = "<group>"; };
+		6F1CADEE1D4A01D400A7D43D /* TGCameraNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraNavigationController.h; sourceTree = "<group>"; };
+		6F1CADEF1D4A01D400A7D43D /* TGCameraNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraNavigationController.m; sourceTree = "<group>"; };
+		6F1CADF01D4A01D400A7D43D /* TGCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraViewController.h; sourceTree = "<group>"; };
+		6F1CADF11D4A01D400A7D43D /* TGCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraViewController.m; sourceTree = "<group>"; };
+		6F1CADF21D4A01D400A7D43D /* TGPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPhotoViewController.h; sourceTree = "<group>"; };
+		6F1CADF31D4A01D400A7D43D /* TGPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPhotoViewController.m; sourceTree = "<group>"; };
+		6F1CADF51D4A01D400A7D43D /* TGAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAlbum.h; sourceTree = "<group>"; };
+		6F1CADF61D4A01D400A7D43D /* TGAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAlbum.m; sourceTree = "<group>"; };
+		6F1CADF71D4A01D400A7D43D /* TGAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAssetsLibrary.h; sourceTree = "<group>"; };
+		6F1CADF81D4A01D400A7D43D /* TGAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAssetsLibrary.m; sourceTree = "<group>"; };
+		6F1CADF91D4A01D400A7D43D /* TGCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCamera.h; sourceTree = "<group>"; };
+		6F1CADFA1D4A01D400A7D43D /* TGCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCamera.m; sourceTree = "<group>"; };
+		6F1CADFB1D4A01D400A7D43D /* TGCameraColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraColor.h; sourceTree = "<group>"; };
+		6F1CADFC1D4A01D400A7D43D /* TGCameraColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraColor.m; sourceTree = "<group>"; };
+		6F1CADFD1D4A01D400A7D43D /* TGCameraFlash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraFlash.h; sourceTree = "<group>"; };
+		6F1CADFE1D4A01D400A7D43D /* TGCameraFlash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraFlash.m; sourceTree = "<group>"; };
+		6F1CADFF1D4A01D400A7D43D /* TGCameraFocus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraFocus.h; sourceTree = "<group>"; };
+		6F1CAE001D4A01D400A7D43D /* TGCameraFocus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraFocus.m; sourceTree = "<group>"; };
+		6F1CAE011D4A01D400A7D43D /* TGCameraGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraGrid.h; sourceTree = "<group>"; };
+		6F1CAE021D4A01D400A7D43D /* TGCameraGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraGrid.m; sourceTree = "<group>"; };
+		6F1CAE031D4A01D400A7D43D /* TGCameraShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraShot.h; sourceTree = "<group>"; };
+		6F1CAE041D4A01D400A7D43D /* TGCameraShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraShot.m; sourceTree = "<group>"; };
+		6F1CAE051D4A01D400A7D43D /* TGCameraToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraToggle.h; sourceTree = "<group>"; };
+		6F1CAE061D4A01D400A7D43D /* TGCameraToggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraToggle.m; sourceTree = "<group>"; };
+		6F1CAE071D4A01D400A7D43D /* IBActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBActionSheet.h; sourceTree = "<group>"; };
+		6F1CAE081D4A01D400A7D43D /* IBActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBActionSheet.m; sourceTree = "<group>"; };
+		6F1CAE0A1D4A01D400A7D43D /* TGAssetImageFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAssetImageFile.h; sourceTree = "<group>"; };
+		6F1CAE0B1D4A01D400A7D43D /* TGAssetImageFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAssetImageFile.m; sourceTree = "<group>"; };
+		6F1CAE0C1D4A01D400A7D43D /* TGCameraViewController.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TGCameraViewController.xcassets; sourceTree = "<group>"; };
+		6F1CAE0E1D4A01D400A7D43D /* TGCameraFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraFilterView.h; sourceTree = "<group>"; };
+		6F1CAE0F1D4A01D400A7D43D /* TGCameraFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraFilterView.m; sourceTree = "<group>"; };
+		6F1CAE101D4A01D400A7D43D /* TGCameraFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraFocusView.h; sourceTree = "<group>"; };
+		6F1CAE111D4A01D400A7D43D /* TGCameraFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraFocusView.m; sourceTree = "<group>"; };
+		6F1CAE121D4A01D400A7D43D /* TGCameraGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraGridView.h; sourceTree = "<group>"; };
+		6F1CAE131D4A01D400A7D43D /* TGCameraGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraGridView.m; sourceTree = "<group>"; };
+		6F1CAE141D4A01D400A7D43D /* TGCameraSlideDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraSlideDownView.h; sourceTree = "<group>"; };
+		6F1CAE151D4A01D400A7D43D /* TGCameraSlideDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraSlideDownView.m; sourceTree = "<group>"; };
+		6F1CAE161D4A01D400A7D43D /* TGCameraSlideUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraSlideUpView.h; sourceTree = "<group>"; };
+		6F1CAE171D4A01D400A7D43D /* TGCameraSlideUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraSlideUpView.m; sourceTree = "<group>"; };
+		6F1CAE181D4A01D400A7D43D /* TGCameraSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraSlideView.h; sourceTree = "<group>"; };
+		6F1CAE191D4A01D400A7D43D /* TGCameraSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraSlideView.m; sourceTree = "<group>"; };
+		6F1CAE1C1D4A01D400A7D43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TGCameraAuthorizationViewController.xib; sourceTree = "<group>"; };
+		6F1CAE1E1D4A01D400A7D43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TGCameraViewController.xib; sourceTree = "<group>"; };
+		6F1CAE201D4A01D400A7D43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TGPhotoViewController.xib; sourceTree = "<group>"; };
+		6F1CAE221D4A01D400A7D43D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/TGCameraAuthorizationViewController.strings"; sourceTree = "<group>"; };
+		6F1CAE241D4A01D400A7D43D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/TGCameraViewController.strings"; sourceTree = "<group>"; };
+		6F1CAE261D4A01D400A7D43D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/TGPhotoViewController.strings"; sourceTree = "<group>"; };
+		6F3CD62B1D4888F700D49F17 /* JS调用OC测试2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JS调用OC测试2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3CD62F1D4888F700D49F17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F3CD6311D4888F700D49F17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F3CD6321D4888F700D49F17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F3CD63A1D4888F700D49F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F3CD63F1D4888F700D49F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F3CD6471D488A4100D49F17 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		6F3CD64B1D488F6700D49F17 /* imgNative.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = imgNative.html; sourceTree = "<group>"; };
+		6F48AB0A1D4F345400CEC584 /* LYQImgSenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQImgSenderViewController.h; sourceTree = "<group>"; };
+		6F48AB0B1D4F345400CEC584 /* LYQImgSenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQImgSenderViewController.m; sourceTree = "<group>"; };
+		6F82941A1D48B707002A6B95 /* ZYQAssetPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQAssetPicker.Bundle; sourceTree = "<group>"; };
+		6F82941B1D48B707002A6B95 /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQAssetPickerController.h; sourceTree = "<group>"; };
+		6F82941C1D48B707002A6B95 /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		6F82941F1D48BF98002A6B95 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		6F8294201D48BF98002A6B95 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		6FA1D27C1D5824BC00115333 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		6FA1D27D1D5824BC00115333 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		6FA1D27E1D5824BC00115333 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		6FF17E1F1D4B44EE00ED38C0 /* photoTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = photoTest.html; sourceTree = "<group>"; };
+		6FF17E221D4B451200ED38C0 /* approval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = approval.png; sourceTree = "<group>"; };
+		6FF17E231D4B451200ED38C0 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		6FF17E241D4B451200ED38C0 /* close1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close1.png; sourceTree = "<group>"; };
+		6FF17E251D4B451200ED38C0 /* close2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close2.png; sourceTree = "<group>"; };
+		6FF17E261D4B451200ED38C0 /* complete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = complete.png; sourceTree = "<group>"; };
+		6FF17E271D4B451200ED38C0 /* flexclose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flexclose.png; sourceTree = "<group>"; };
+		6FF17E281D4B451200ED38C0 /* foot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foot.png; sourceTree = "<group>"; };
+		6FF17E291D4B451200ED38C0 /* footBak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footBak.png; sourceTree = "<group>"; };
+		6FF17E2A1D4B451200ED38C0 /* holidy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holidy.png; sourceTree = "<group>"; };
+		6FF17E2B1D4B451200ED38C0 /* imgBut11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgBut11.png; sourceTree = "<group>"; };
+		6FF17E2C1D4B451200ED38C0 /* imgBut12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgBut12.png; sourceTree = "<group>"; };
+		6FF17E2D1D4B451200ED38C0 /* imgBut21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgBut21.png; sourceTree = "<group>"; };
+		6FF17E2E1D4B451200ED38C0 /* imgBut22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgBut22.png; sourceTree = "<group>"; };
+		6FF17E2F1D4B451200ED38C0 /* indexbak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indexbak.png; sourceTree = "<group>"; };
+		6FF17E301D4B451200ED38C0 /* insurance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insurance.png; sourceTree = "<group>"; };
+		6FF17E311D4B451200ED38C0 /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
+		6FF17E321D4B451200ED38C0 /* open1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open1.png; sourceTree = "<group>"; };
+		6FF17E331D4B451200ED38C0 /* open2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open2.png; sourceTree = "<group>"; };
+		6FF17E341D4B451200ED38C0 /* photoBak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoBak.png; sourceTree = "<group>"; };
+		6FF17E351D4B451200ED38C0 /* pressBak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pressBak.png; sourceTree = "<group>"; };
+		6FF17E361D4B451200ED38C0 /* submit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submit.png; sourceTree = "<group>"; };
+		6FF17E371D4B451200ED38C0 /* topresent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topresent.png; sourceTree = "<group>"; };
+		6FF17E381D4B451200ED38C0 /* topresent2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topresent2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F3CD6281D4888F700D49F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3CD6481D488A4100D49F17 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F1CADE71D4A01D400A7D43D /* TGCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CADE81D4A01D400A7D43D /* Category */,
+				6F1CADEB1D4A01D400A7D43D /* Control */,
+				6F1CADF41D4A01D400A7D43D /* Helper */,
+				6F1CAE071D4A01D400A7D43D /* IBActionSheet.h */,
+				6F1CAE081D4A01D400A7D43D /* IBActionSheet.m */,
+				6F1CAE091D4A01D400A7D43D /* Model */,
+				6F1CAE0C1D4A01D400A7D43D /* TGCameraViewController.xcassets */,
+				6F1CAE0D1D4A01D400A7D43D /* UI */,
+				6F1CAE1A1D4A01D400A7D43D /* View */,
+			);
+			path = TGCameraViewController;
+			sourceTree = "<group>";
+		};
+		6F1CADE81D4A01D400A7D43D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CADE91D4A01D400A7D43D /* UIImage+CameraFilters.h */,
+				6F1CADEA1D4A01D400A7D43D /* UIImage+CameraFilters.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6F1CADEB1D4A01D400A7D43D /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CADEC1D4A01D400A7D43D /* TGCameraAuthorizationViewController.h */,
+				6F1CADED1D4A01D400A7D43D /* TGCameraAuthorizationViewController.m */,
+				6F1CADEE1D4A01D400A7D43D /* TGCameraNavigationController.h */,
+				6F1CADEF1D4A01D400A7D43D /* TGCameraNavigationController.m */,
+				6F1CADF01D4A01D400A7D43D /* TGCameraViewController.h */,
+				6F1CADF11D4A01D400A7D43D /* TGCameraViewController.m */,
+				6F1CADF21D4A01D400A7D43D /* TGPhotoViewController.h */,
+				6F1CADF31D4A01D400A7D43D /* TGPhotoViewController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		6F1CADF41D4A01D400A7D43D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CADF51D4A01D400A7D43D /* TGAlbum.h */,
+				6F1CADF61D4A01D400A7D43D /* TGAlbum.m */,
+				6F1CADF71D4A01D400A7D43D /* TGAssetsLibrary.h */,
+				6F1CADF81D4A01D400A7D43D /* TGAssetsLibrary.m */,
+				6F1CADF91D4A01D400A7D43D /* TGCamera.h */,
+				6F1CADFA1D4A01D400A7D43D /* TGCamera.m */,
+				6F1CADFB1D4A01D400A7D43D /* TGCameraColor.h */,
+				6F1CADFC1D4A01D400A7D43D /* TGCameraColor.m */,
+				6F1CADFD1D4A01D400A7D43D /* TGCameraFlash.h */,
+				6F1CADFE1D4A01D400A7D43D /* TGCameraFlash.m */,
+				6F1CADFF1D4A01D400A7D43D /* TGCameraFocus.h */,
+				6F1CAE001D4A01D400A7D43D /* TGCameraFocus.m */,
+				6F1CAE011D4A01D400A7D43D /* TGCameraGrid.h */,
+				6F1CAE021D4A01D400A7D43D /* TGCameraGrid.m */,
+				6F1CAE031D4A01D400A7D43D /* TGCameraShot.h */,
+				6F1CAE041D4A01D400A7D43D /* TGCameraShot.m */,
+				6F1CAE051D4A01D400A7D43D /* TGCameraToggle.h */,
+				6F1CAE061D4A01D400A7D43D /* TGCameraToggle.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6F1CAE091D4A01D400A7D43D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CAE0A1D4A01D400A7D43D /* TGAssetImageFile.h */,
+				6F1CAE0B1D4A01D400A7D43D /* TGAssetImageFile.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F1CAE0D1D4A01D400A7D43D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CAE0E1D4A01D400A7D43D /* TGCameraFilterView.h */,
+				6F1CAE0F1D4A01D400A7D43D /* TGCameraFilterView.m */,
+				6F1CAE101D4A01D400A7D43D /* TGCameraFocusView.h */,
+				6F1CAE111D4A01D400A7D43D /* TGCameraFocusView.m */,
+				6F1CAE121D4A01D400A7D43D /* TGCameraGridView.h */,
+				6F1CAE131D4A01D400A7D43D /* TGCameraGridView.m */,
+				6F1CAE141D4A01D400A7D43D /* TGCameraSlideDownView.h */,
+				6F1CAE151D4A01D400A7D43D /* TGCameraSlideDownView.m */,
+				6F1CAE161D4A01D400A7D43D /* TGCameraSlideUpView.h */,
+				6F1CAE171D4A01D400A7D43D /* TGCameraSlideUpView.m */,
+				6F1CAE181D4A01D400A7D43D /* TGCameraSlideView.h */,
+				6F1CAE191D4A01D400A7D43D /* TGCameraSlideView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6F1CAE1A1D4A01D400A7D43D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CAE1B1D4A01D400A7D43D /* TGCameraAuthorizationViewController.xib */,
+				6F1CAE1D1D4A01D400A7D43D /* TGCameraViewController.xib */,
+				6F1CAE1F1D4A01D400A7D43D /* TGPhotoViewController.xib */,
+				6F1CAE211D4A01D400A7D43D /* TGCameraAuthorizationViewController.strings */,
+				6F1CAE231D4A01D400A7D43D /* TGCameraViewController.strings */,
+				6F1CAE251D4A01D400A7D43D /* TGPhotoViewController.strings */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F3CD6221D4888F700D49F17 = {
+			isa = PBXGroup;
+			children = (
+				6F3CD6471D488A4100D49F17 /* JavaScriptCore.framework */,
+				6F3CD62D1D4888F700D49F17 /* JS调用OC测试2 */,
+				6F3CD62C1D4888F700D49F17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F3CD62C1D4888F700D49F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F3CD62B1D4888F700D49F17 /* JS调用OC测试2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F3CD62D1D4888F700D49F17 /* JS调用OC测试2 */ = {
+			isa = PBXGroup;
+			children = (
+				6FA1D27B1D5824BC00115333 /* GTMBase64 */,
+				6F48AB091D4F32B900CEC584 /* ZYQAssetPicker */,
+				6F1CADE71D4A01D400A7D43D /* TGCameraViewController */,
+				6F82941F1D48BF98002A6B95 /* Tools.h */,
+				6F8294201D48BF98002A6B95 /* Tools.m */,
+				6F3CD6311D4888F700D49F17 /* AppDelegate.h */,
+				6F3CD6321D4888F700D49F17 /* AppDelegate.m */,
+				6F48AB0A1D4F345400CEC584 /* LYQImgSenderViewController.h */,
+				6F48AB0B1D4F345400CEC584 /* LYQImgSenderViewController.m */,
+				6FF17E1F1D4B44EE00ED38C0 /* photoTest.html */,
+				6F3CD64B1D488F6700D49F17 /* imgNative.html */,
+				6FF17E211D4B450700ED38C0 /* img */,
+				6F3CD63A1D4888F700D49F17 /* Assets.xcassets */,
+				6F3CD63F1D4888F700D49F17 /* Info.plist */,
+				6F3CD62E1D4888F700D49F17 /* Supporting Files */,
+			);
+			path = "JS调用OC测试2";
+			sourceTree = "<group>";
+		};
+		6F3CD62E1D4888F700D49F17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F3CD62F1D4888F700D49F17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F48AB091D4F32B900CEC584 /* ZYQAssetPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6F82941A1D48B707002A6B95 /* ZYQAssetPicker.Bundle */,
+				6F82941B1D48B707002A6B95 /* ZYQAssetPickerController.h */,
+				6F82941C1D48B707002A6B95 /* ZYQAssetPickerController.m */,
+			);
+			name = ZYQAssetPicker;
+			sourceTree = "<group>";
+		};
+		6FA1D27B1D5824BC00115333 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				6FA1D27C1D5824BC00115333 /* GTMBase64.h */,
+				6FA1D27D1D5824BC00115333 /* GTMBase64.m */,
+				6FA1D27E1D5824BC00115333 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		6FF17E211D4B450700ED38C0 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				6FF17E221D4B451200ED38C0 /* approval.png */,
+				6FF17E231D4B451200ED38C0 /* back.png */,
+				6FF17E241D4B451200ED38C0 /* close1.png */,
+				6FF17E251D4B451200ED38C0 /* close2.png */,
+				6FF17E261D4B451200ED38C0 /* complete.png */,
+				6FF17E271D4B451200ED38C0 /* flexclose.png */,
+				6FF17E281D4B451200ED38C0 /* foot.png */,
+				6FF17E291D4B451200ED38C0 /* footBak.png */,
+				6FF17E2A1D4B451200ED38C0 /* holidy.png */,
+				6FF17E2B1D4B451200ED38C0 /* imgBut11.png */,
+				6FF17E2C1D4B451200ED38C0 /* imgBut12.png */,
+				6FF17E2D1D4B451200ED38C0 /* imgBut21.png */,
+				6FF17E2E1D4B451200ED38C0 /* imgBut22.png */,
+				6FF17E2F1D4B451200ED38C0 /* indexbak.png */,
+				6FF17E301D4B451200ED38C0 /* insurance.png */,
+				6FF17E311D4B451200ED38C0 /* money.png */,
+				6FF17E321D4B451200ED38C0 /* open1.png */,
+				6FF17E331D4B451200ED38C0 /* open2.png */,
+				6FF17E341D4B451200ED38C0 /* photoBak.png */,
+				6FF17E351D4B451200ED38C0 /* pressBak.png */,
+				6FF17E361D4B451200ED38C0 /* submit.png */,
+				6FF17E371D4B451200ED38C0 /* topresent.png */,
+				6FF17E381D4B451200ED38C0 /* topresent2.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F3CD62A1D4888F700D49F17 /* JS调用OC测试2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F3CD6421D4888F700D49F17 /* Build configuration list for PBXNativeTarget "JS调用OC测试2" */;
+			buildPhases = (
+				6F3CD6271D4888F700D49F17 /* Sources */,
+				6F3CD6281D4888F700D49F17 /* Frameworks */,
+				6F3CD6291D4888F700D49F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JS调用OC测试2";
+			productName = "JS调用OC测试2";
+			productReference = 6F3CD62B1D4888F700D49F17 /* JS调用OC测试2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F3CD6231D4888F700D49F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = leezb101;
+				TargetAttributes = {
+					6F3CD62A1D4888F700D49F17 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F3CD6261D4888F700D49F17 /* Build configuration list for PBXProject "JS调用OC测试2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = 6F3CD6221D4888F700D49F17;
+			productRefGroup = 6F3CD62C1D4888F700D49F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F3CD62A1D4888F700D49F17 /* JS调用OC测试2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F3CD6291D4888F700D49F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF17E421D4B451200ED38C0 /* imgBut11.png in Resources */,
+				6FF17E451D4B451200ED38C0 /* imgBut22.png in Resources */,
+				6FF17E401D4B451200ED38C0 /* footBak.png in Resources */,
+				6FF17E4F1D4B451200ED38C0 /* topresent2.png in Resources */,
+				6FF17E4D1D4B451200ED38C0 /* submit.png in Resources */,
+				6FF17E3C1D4B451200ED38C0 /* close2.png in Resources */,
+				6FF17E411D4B451200ED38C0 /* holidy.png in Resources */,
+				6F1CAE421D4A01D400A7D43D /* TGCameraViewController.strings in Resources */,
+				6F1CAE411D4A01D400A7D43D /* TGCameraAuthorizationViewController.strings in Resources */,
+				6FF17E3D1D4B451200ED38C0 /* complete.png in Resources */,
+				6F82941D1D48B707002A6B95 /* ZYQAssetPicker.Bundle in Resources */,
+				6FF17E3B1D4B451200ED38C0 /* close1.png in Resources */,
+				6FF17E4C1D4B451200ED38C0 /* pressBak.png in Resources */,
+				6FF17E461D4B451200ED38C0 /* indexbak.png in Resources */,
+				6F1CAE401D4A01D400A7D43D /* TGPhotoViewController.xib in Resources */,
+				6F1CAE431D4A01D400A7D43D /* TGPhotoViewController.strings in Resources */,
+				6FF17E201D4B44EE00ED38C0 /* photoTest.html in Resources */,
+				6F1CAE371D4A01D400A7D43D /* TGCameraViewController.xcassets in Resources */,
+				6FF17E471D4B451200ED38C0 /* insurance.png in Resources */,
+				6FF17E3F1D4B451200ED38C0 /* foot.png in Resources */,
+				6FF17E441D4B451200ED38C0 /* imgBut21.png in Resources */,
+				6FF17E491D4B451200ED38C0 /* open1.png in Resources */,
+				6F3CD64C1D488F6700D49F17 /* imgNative.html in Resources */,
+				6F3CD63B1D4888F700D49F17 /* Assets.xcassets in Resources */,
+				6FF17E4E1D4B451200ED38C0 /* topresent.png in Resources */,
+				6FF17E3E1D4B451200ED38C0 /* flexclose.png in Resources */,
+				6FF17E4B1D4B451200ED38C0 /* photoBak.png in Resources */,
+				6FF17E431D4B451200ED38C0 /* imgBut12.png in Resources */,
+				6FF17E391D4B451200ED38C0 /* approval.png in Resources */,
+				6FF17E3A1D4B451200ED38C0 /* back.png in Resources */,
+				6F1CAE3E1D4A01D400A7D43D /* TGCameraAuthorizationViewController.xib in Resources */,
+				6FF17E481D4B451200ED38C0 /* money.png in Resources */,
+				6F1CAE3F1D4A01D400A7D43D /* TGCameraViewController.xib in Resources */,
+				6FF17E4A1D4B451200ED38C0 /* open2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F3CD6271D4888F700D49F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1CAE2E1D4A01D400A7D43D /* TGCamera.m in Sources */,
+				6F1CAE3A1D4A01D400A7D43D /* TGCameraGridView.m in Sources */,
+				6F1CAE291D4A01D400A7D43D /* TGCameraNavigationController.m in Sources */,
+				6F8294211D48BF98002A6B95 /* Tools.m in Sources */,
+				6F1CAE361D4A01D400A7D43D /* TGAssetImageFile.m in Sources */,
+				6F1CAE271D4A01D400A7D43D /* UIImage+CameraFilters.m in Sources */,
+				6F82941E1D48B707002A6B95 /* ZYQAssetPickerController.m in Sources */,
+				6F1CAE301D4A01D400A7D43D /* TGCameraFlash.m in Sources */,
+				6F1CAE381D4A01D400A7D43D /* TGCameraFilterView.m in Sources */,
+				6F1CAE2A1D4A01D400A7D43D /* TGCameraViewController.m in Sources */,
+				6F1CAE2B1D4A01D400A7D43D /* TGPhotoViewController.m in Sources */,
+				6F1CAE331D4A01D400A7D43D /* TGCameraShot.m in Sources */,
+				6F1CAE281D4A01D400A7D43D /* TGCameraAuthorizationViewController.m in Sources */,
+				6F1CAE2F1D4A01D400A7D43D /* TGCameraColor.m in Sources */,
+				6F1CAE391D4A01D400A7D43D /* TGCameraFocusView.m in Sources */,
+				6F1CAE351D4A01D400A7D43D /* IBActionSheet.m in Sources */,
+				6F1CAE3C1D4A01D400A7D43D /* TGCameraSlideUpView.m in Sources */,
+				6F3CD6331D4888F700D49F17 /* AppDelegate.m in Sources */,
+				6F1CAE3B1D4A01D400A7D43D /* TGCameraSlideDownView.m in Sources */,
+				6F1CAE2C1D4A01D400A7D43D /* TGAlbum.m in Sources */,
+				6F3CD6301D4888F700D49F17 /* main.m in Sources */,
+				6F48AB0C1D4F345400CEC584 /* LYQImgSenderViewController.m in Sources */,
+				6F1CAE321D4A01D400A7D43D /* TGCameraGrid.m in Sources */,
+				6F1CAE3D1D4A01D400A7D43D /* TGCameraSlideView.m in Sources */,
+				6F1CAE311D4A01D400A7D43D /* TGCameraFocus.m in Sources */,
+				6F1CAE2D1D4A01D400A7D43D /* TGAssetsLibrary.m in Sources */,
+				6F1CAE341D4A01D400A7D43D /* TGCameraToggle.m in Sources */,
+				6FA1D27F1D5824BC00115333 /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F1CAE1B1D4A01D400A7D43D /* TGCameraAuthorizationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1CAE1C1D4A01D400A7D43D /* Base */,
+			);
+			name = TGCameraAuthorizationViewController.xib;
+			sourceTree = "<group>";
+		};
+		6F1CAE1D1D4A01D400A7D43D /* TGCameraViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1CAE1E1D4A01D400A7D43D /* Base */,
+			);
+			name = TGCameraViewController.xib;
+			sourceTree = "<group>";
+		};
+		6F1CAE1F1D4A01D400A7D43D /* TGPhotoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1CAE201D4A01D400A7D43D /* Base */,
+			);
+			name = TGPhotoViewController.xib;
+			sourceTree = "<group>";
+		};
+		6F1CAE211D4A01D400A7D43D /* TGCameraAuthorizationViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1CAE221D4A01D400A7D43D /* pt-BR */,
+			);
+			name = TGCameraAuthorizationViewController.strings;
+			sourceTree = "<group>";
+		};
+		6F1CAE231D4A01D400A7D43D /* TGCameraViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1CAE241D4A01D400A7D43D /* pt-BR */,
+			);
+			name = TGCameraViewController.strings;
+			sourceTree = "<group>";
+		};
+		6F1CAE251D4A01D400A7D43D /* TGPhotoViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1CAE261D4A01D400A7D43D /* pt-BR */,
+			);
+			name = TGPhotoViewController.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F3CD6401D4888F700D49F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F3CD6411D4888F700D49F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F3CD6431D4888F700D49F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JS调用OC测试2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leezb101Test.JS--OC--2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F3CD6441D4888F700D49F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JS调用OC测试2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leezb101Test.JS--OC--2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F3CD6261D4888F700D49F17 /* Build configuration list for PBXProject "JS调用OC测试2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3CD6401D4888F700D49F17 /* Debug */,
+				6F3CD6411D4888F700D49F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F3CD6421D4888F700D49F17 /* Build configuration list for PBXNativeTarget "JS调用OC测试2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3CD6431D4888F700D49F17 /* Debug */,
+				6F3CD6441D4888F700D49F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F3CD6231D4888F700D49F17 /* Project object */;
+}
